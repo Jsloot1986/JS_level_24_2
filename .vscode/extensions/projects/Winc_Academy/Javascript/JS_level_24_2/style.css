@@ -1,0 +1,41 @@
+body {
+  background-image: url("img/thumb-1920-677583.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+}
+
+li {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  list-style-type: none;
+}
+
+#pokemonResult {
+  width: 200px;
+  height: 200px;
+}
+
+#pokemon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (200px)[4];
+      grid-template-columns: repeat(4, 200px);
+  -ms-grid-rows: (100px)[5];
+      grid-template-rows: repeat(5, 100px);
+  gap: 5px;
+  font-size: 40px;
+}
+
+button {
+  font-size: 25px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
